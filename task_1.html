@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Signup & Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Signup Form</h1>
+        <form id="signupForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            
+            <button type="submit">Sign Up</button>
+        </form>
+
+        <div id="message"></div>
+    </div>
+
+    <div class="container dashboard">
+        <h1>User Dashboard</h1>
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
